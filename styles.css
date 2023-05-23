@@ -186,10 +186,13 @@ footer{
 
 
 
-
-
-
-
-
+#colorValues{
+    margin-top: 1rem;
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
 
 

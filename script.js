@@ -9,6 +9,16 @@ function generarColoresAleatorios() {
   document.documentElement.style.setProperty('--color60', colorAleatorio1);
   document.documentElement.style.setProperty('--color30', colorAleatorio2);
   document.documentElement.style.setProperty('--color10', colorAleatorio3);
+
+
+
+
+  var colorValuesDiv = document.getElementById('colorValues');
+  colorValuesDiv.innerHTML = `
+  Color 60%: ${colorAleatorio1}<br> <div style="background-color: ${colorAleatorio1}; width: 50px; height: 25px;"></div> 
+  Color 30%: ${colorAleatorio2}<br> <div style="background-color: ${colorAleatorio2}; width: 50px; height: 25px;"></div> 
+  Color 10%: ${colorAleatorio3}<div style="background-color: ${colorAleatorio3}; width: 50px; height: 25px;"></div> 
+  `;
 }
 
 function generarColorAleatorio() {
@@ -21,7 +31,6 @@ function generarColorAleatorio() {
 
   return color;
 }
-
 
 
 
