@@ -34,7 +34,7 @@ function generarColorAleatorio() {
 
 function generarColorContraste(color) {
   var luminosidad = calcularLuminosidad(color);
-  var colorContraste = luminosidad > 0.5 ? '#000000' : '#ffffff';
+  var colorContraste = luminosidad > 0.5 ? '#151515' : '#f2f2f2';
   return colorContraste;
 }
 
